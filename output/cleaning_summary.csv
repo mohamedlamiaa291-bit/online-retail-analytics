@@ -1,0 +1,5 @@
+Step,Rows,Revenue_GBP
+Raw file,1021288,18928575.0
+Completed only,1003373,19645071.0
+Real products only,1003214,19642692.0
+With Customer ID (RFM/Cohort),776577,17068568.0
