@@ -4,7 +4,7 @@
 
 End-to-end analysis of an online gift retailer (Online Retail II, Dec 2009 – Dec 2011): data cleaning, sales seasonality, geography and products, customer behaviour, RFM segmentation, cohort retention, market basket and a forecast.
 
-**Deliverables:** [Live dashboard](https://mohamedlamiaa291-bit.github.io/online-retail-analytics/dashboard.html) · [`output/Online_Retail_Dashboard.pdf`](output/Online_Retail_Dashboard.pdf) (report)
+**Deliverables:** [Live dashboard](https://mohamedlamiaa291-bit.github.io/online-retail-analytics/dashboard.html) · [output/Online_Retail_Dashboard.pdf](output/Online_Retail_Dashboard.pdf) (report)
 
 ## 📌 Executive summary
 
