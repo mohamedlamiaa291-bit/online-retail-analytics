@@ -1,0 +1,10 @@
+# raw / large data (re-create with 01_cleaning.py)
+data/
+output/sales_clean.csv
+output/customers_clean.csv
+output/cancelled.csv
+
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
