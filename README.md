@@ -4,7 +4,7 @@
 
 End-to-end analysis of an online gift retailer (Online Retail II, Dec 2009 – Dec 2011): data cleaning, sales seasonality, geography and products, customer behaviour, RFM segmentation, cohort retention, market basket and a forecast.
 
-**Deliverables:** [`dashboard.html`](dashboard.html) (interactive; on a wide screen all charts show side by side) · [`output/Online_Retail_Dashboard.pdf`](output/Online_Retail_Dashboard.pdf) (one-page dashboard) · [`output/Online_Retail_Report.pdf`](output/Online_Retail_Report.pdf) (detailed report, one chart per page)
+**Deliverables:** [Live dashboard](https://mohamedlamiaa291-bit.github.io/online-retail-analytics/dashboard.html) (interactive, fits on one screen on a desktop) · [`output/Online_Retail_Dashboard.pdf`](output/Online_Retail_Dashboard.pdf) (one-page dashboard) · [`output/Online_Retail_Report.pdf`](output/Online_Retail_Report.pdf) (detailed report, one chart per page)
 
 ## 📌 Executive summary
 
@@ -18,12 +18,11 @@ End-to-end analysis of an online gift retailer (Online Retail II, Dec 2009 – D
 | 6 | Ireland earns £623K from only 3 customers | Reduce concentration; grow Germany and France |
 | 7 | Matching party items are bought together: paper cups + plates (lift 27×), Red Retrospot bowl + cup (16×), napkins + plates (11×) | Bundle and cross-sell |
 
-## 🖼️ Highlights
+## 🖼️ Dashboard preview
 
-<p align="center">
-<img src="output/ch2_revenue_yoy.png" width="48%"> <img src="output/ch5_segments.png" width="48%"><br>
-<img src="output/ch4_heatmap.png" width="48%"> <img src="output/ch6_cohort_heatmap.png" width="48%">
-</p>
+<a href="https://mohamedlamiaa291-bit.github.io/online-retail-analytics/dashboard.html"><img src="output/dashboard_preview.png" alt="Dashboard preview: all charts on one screen" width="100%"></a>
+
+<sub>Click the image to open the live dashboard. Individual charts are in [`output/`](output/).</sub>
 
 ## 🗂️ Chapters
 
