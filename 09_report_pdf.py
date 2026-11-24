@@ -113,7 +113,7 @@ def table_page(c, n, title, chap, sub, rows, widths, col_names, x, y_top):
     return y_top - th
 
 
-c = canvas.Canvas(str(OUT / "Online_Retail_Dashboard.pdf"), pagesize=(W, H))
+c = canvas.Canvas(str(OUT / "Online_Retail_Report.pdf"), pagesize=(W, H))
 c.setTitle("Online Retail Analytics"); c.setAuthor("Online Retail II analysis")
 
 # 1) cover
@@ -171,4 +171,4 @@ card(c, 36, 52, W - 72, 649)
 para_block(c, notes, 70, 701 - 36, W - 140, n_style, bullet=False)
 c.showPage()
 c.save()
-print("Saved", OUT / "Online_Retail_Dashboard.pdf")
+print("Saved", OUT / "Online_Retail_Report.pdf")

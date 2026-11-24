@@ -4,7 +4,7 @@
 
 End-to-end analysis of an online gift retailer (Online Retail II, Dec 2009 – Dec 2011): data cleaning, sales seasonality, geography and products, customer behaviour, RFM segmentation, cohort retention, market basket and a forecast.
 
-**Deliverables:** [Live dashboard](https://mohamedlamiaa291-bit.github.io/online-retail-analytics/dashboard.html) · [output/Online_Retail_Dashboard.pdf](output/Online_Retail_Dashboard.pdf) (report)
+**Deliverables:** [`dashboard.html`](dashboard.html) (interactive; on a wide screen all charts show side by side) · [`output/Online_Retail_Dashboard.pdf`](output/Online_Retail_Dashboard.pdf) (one-page dashboard) · [`output/Online_Retail_Report.pdf`](output/Online_Retail_Report.pdf) (detailed report, one chart per page)
 
 ## 📌 Executive summary
 
@@ -37,7 +37,8 @@ End-to-end analysis of an online gift retailer (Online Retail II, Dec 2009 – D
 | 6. Cohort retention | `06_cohort_retention.py` | `ch6_*.png`, `cohort_retention.csv` |
 | 7. Market basket and forecast | `07_basket_forecast.py` | `basket_rules.csv`, `forecast.csv`, `dashboard_data.json` |
 | Cover images | `08_cover.py` | `cover_*.png` |
-| PDF report | `09_report_pdf.py` | `Online_Retail_Dashboard.pdf` |
+| PDF report | `09_report_pdf.py` | `Online_Retail_Report.pdf` |
+| One-page PDF dashboard | `10_dashboard_onepage.py` | `Online_Retail_Dashboard.pdf` |
 
 ## ▶️ Run it
 
@@ -49,7 +50,7 @@ End-to-end analysis of an online gift retailer (Online Retail II, Dec 2009 – D
 pip install -r requirements.txt
 python 01_cleaning.py && python 02_sales_overview.py && python 03_geography_products.py
 python 04_behavior.py && python 05_rfm.py && python 06_cohort_retention.py && python 07_basket_forecast.py
-python 08_cover.py && python 09_report_pdf.py   # optional: cover images and PDF
+python 08_cover.py && python 09_report_pdf.py && python 10_dashboard_onepage.py   # optional: cover images and PDFs
 ```
 
 Paths are relative to the repo, so it runs from any machine. Large cleaned CSVs are not stored in the repo (see `.gitignore`); `01_cleaning.py` re-creates them in `output/`.
